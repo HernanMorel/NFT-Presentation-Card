@@ -69,7 +69,7 @@ body {
 #thumbnail {
   border: 2px solid #ffffff;
   border-radius: 50%;
-  width: 2em;
+  width: 2.0625em;
   flex-direction: row;
 }
 
@@ -78,9 +78,10 @@ body {
   font-weight: 400;
   color: #ffffff;
   opacity: 0.8;
+  margin-top: 0.625em;
+  margin-left: 0.625em;
 }
 #creation {
   color: #8bacd9;
   opacity: 0.9;
-  padding-left: 1em;
 }
