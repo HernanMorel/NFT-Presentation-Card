@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 body {
   padding: 0;
   margin: 0;
@@ -56,7 +49,7 @@ body {
   align-items: center;
   justify-content: center;
   /*the background color has an rgba value so that the eye icon retains its full color while the background is what gets dimmed upon hover*/
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: rgba(0, 255, 255, 0.4);
   transition: 0.6s ease;
   /*opacity must be at 0 (making it invisible unless stated  otherwise by the hover selector)*/
   opacity: 0;
@@ -156,6 +149,8 @@ an inline block. Doing so will allow you to manipulate its box model.*/
   opacity: 0.9;
 }
 
+/*definitely over-did-it with the media queries, I was hoping to adjust for each size accordingly*/
+
 @media only screen and (max-width: 915px) {
   .main-container {
     width: 90%;
@@ -167,7 +162,7 @@ an inline block. Doing so will allow you to manipulate its box model.*/
   }
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 750px) {
   .main-container {
     width: 90%;
     height: 115%;
@@ -177,10 +172,33 @@ an inline block. Doing so will allow you to manipulate its box model.*/
     border-radius: 0;
   }
 }
-@media only screen and (max-width: 576px) {
+
+@media only screen and (max-width: 450px) {
   .main-container {
-    width: 60%;
+    width: 70%;
     height: 70%;
+  }
+  .eye-container .pricing-container .creator-container {
+    flex-direction: column;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .main-container {
+    width: 70%;
+    height: 70%;
+  }
+  .eye-container .pricing-container .creator-container {
+    flex-direction: column;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main-container {
+    width: 70%;
+    height: 60%;
   }
   .eye-container .pricing-container .creator-container {
     flex-direction: column;

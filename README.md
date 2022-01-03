@@ -1,16 +1,10 @@
 # Frontend Mentor - NFT preview card component
 
-![](./screenshot.jpg)
-
-## My process
+Worked on this NFT presentation card, its got a few elements that change in active states as well mobile responsivness.
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS3 custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
