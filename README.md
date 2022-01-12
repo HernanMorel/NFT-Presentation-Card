@@ -7,7 +7,7 @@ Worked on this NFT presentation card, its got a few elements that change in acti
 - Semantic HTML5 markup
 - CSS3 custom properties
 - Flexbox
-- Mobile-first workflow
+- Mobile-first workflow.
 
 ## preview below
 
